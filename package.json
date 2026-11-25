@@ -1,0 +1,14 @@
+{
+  "name": "sort-date-backfill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One-off Sort Date backfill for a Webflow CMS collection",
+  "scripts": {
+    "fields": "node backfill.mjs fields",
+    "plan": "node backfill.mjs plan",
+    "apply": "node backfill.mjs apply",
+    "test": "node test/mock.test.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
